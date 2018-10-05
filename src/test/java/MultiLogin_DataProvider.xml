@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Demo_MultiLogin">
+	<test name="Valid and Invalid Login">
+		<parameter name="userName" value="anitha"></parameter>
+		<parameter name="password" value="Sunanda"></parameter>
+		<classes>
+			<class
+				name="TestNgProject1.AnithaMavenEclipseProject.Testcase8_Multi_Login"></class>
+
+		</classes>
+	</test>
+
+</suite>

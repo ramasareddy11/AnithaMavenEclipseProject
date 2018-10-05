@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Demo form">
+
+	<test name="Register page">
+		<parameter name="firstName" value="anitha"></parameter>
+		<parameter name="lastName" value="reddy"></parameter>
+		<parameter name="phone" value="7019579843"></parameter>
+		<parameter name="email"
+			value="anitha.ramasanireddy@gmail.com"></parameter>
+		<parameter name="address" value="Atp"></parameter>
+		<parameter name="city" value="Anantapur"></parameter>
+		<parameter name="state" value="Andhra"></parameter>
+		<parameter name="postalcode" value="ATP"></parameter>
+		<classes>
+			<class
+				name="TestNgProject1.AnithaMavenEclipseProject.Testcase2_Register"></class>
+		</classes>
+
+	</test>
+</suite>

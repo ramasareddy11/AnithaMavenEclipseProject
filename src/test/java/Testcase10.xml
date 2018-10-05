@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Title checking" verbose="2">
+	<listeners>
+	<listener class-name="TestNgProject1.AnithaMavenEclipseProject.Listeners_TestCalling"></listener>
+	</listeners>
+
+	<test name="Testcase10_All">
+	<classes>
+	<class name="TestNgProject1.AnithaMavenEclipseProject.Testcase10_Cantacts"></class>
+	<class name="TestNgProject1.AnithaMavenEclipseProject.Testcase10_CarRentals"></class>
+	<class name="TestNgProject1.AnithaMavenEclipseProject.Testcase10_Support"></class>
+	
+	</classes>
+	</test>
+</suite>
